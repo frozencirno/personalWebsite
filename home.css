@@ -1,0 +1,62 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: rgba(253, 216, 253, 0.7);
+    margin: 0;
+    padding: 15px 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar p {
+    margin: 0 20px;
+    font-size: 30px;
+    color: inherit;
+}
+
+.navbar-links {                  
+    display: flex;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 30px;
+    color: inherit;
+}
+
+.navbar a:hover {
+    color: #8a8484;
+}
+
+.content {
+    font-size: 18px;
+    background-color: rgba(253, 216, 253, 0.55);
+    width: 80%;
+    margin: 3%;
+    border-radius: 6px;
+    backdrop-filter: blur(2px);
+    padding: 4px;
+}
+
+.content h1 {
+    margin-left: 2%;
+}
+
+.content p {
+    margin-left: 4%;
+}
+
+body {
+    color: #c21f4a;
+    font-weight: 200;
+    margin: 0;
+    font-family: "Delius", cursive;
+    background-image: url("images/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+}
