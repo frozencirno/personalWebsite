@@ -51,6 +51,11 @@
     margin-left: 4%;
 }
 
+.content iframe {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
 body {
     color: #c21f4a;
     font-weight: 200;
